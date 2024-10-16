@@ -1,0 +1,22 @@
+
+/*
+flex-grow: 1;: Hace que los elementos crezcan de manera proporcional al espacio disponible.
+
+justify-content: space-around;: Distribuye los elementos dejando espacio alrededor de ellos.
+
+*/
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.flex-item {
+    background-color: deepskyblue;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    flex-grow: 1; /* Los elementos pueden crecer para llenar el espacio disponible */
+    border-radius: 8px;
+}

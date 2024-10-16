@@ -1,0 +1,25 @@
+
+/*
+flex-direction: column;: Cambia la orientación de los elementos para que se organicen en columna.
+
+justify-content: center;: Alinea los elementos verticalmente en el centro del contenedor.
+
+align-items: flex-start;: Alinea los elementos al inicio del contenedor en el eje horizontal.
+*/
+
+.flex-container {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    justify-content: center; /* Alinea al centro verticalmente */
+    align-items: flex-start; /* Alinea los elementos al inicio horizontalmente */
+    height: 300px;
+    background-color: lightgray;
+}
+
+.flex-item {
+    background-color: deepskyblue;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
